@@ -1,0 +1,49 @@
+body {
+    width: 98%;
+    height: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 0.15rem solid black;
+    background-color: #1972a4;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+main {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+    left: 0;
+    font-weight: 200;
+    background-color: #eeeded
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.15rem solid black;
+}
+
+.text {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-bottom: 0.15rem solid gray;
+    text-align: justify;
+}

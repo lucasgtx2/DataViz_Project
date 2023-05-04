@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Data Visualization Project</title>
+        <link rel="stylesheet" href="../css/index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">  <!-- DM Sans (texto1) -->
+    </head>
+
+    <body>
+        <header class="header">
+            <h2>
+                Data Visualization Project
+            </h2>
+        </header>
+
+        <main>
+            <div class="name">
+                <h4>
+                    Creator: Lucas Gabriel Mocellin Teixeira
+                </h4>
+                <h4>
+                    LUISS 2023
+                </h4>
+            </div>
+            <div class="text">
+                <h2>
+                    Introduction
+                </h2>
+                <h5>
+                    The purpose of this project is to select a dataset that allows a network analysis through visualization techniques. 
+                </h5>
+                <h5>
+                    The data selected is divided into two datasets (BKFRAB and BKRFAC). It concerns interactions among students living in a fraternity at a West Virginia college. All subjects had been residents in the fraternity from three months to three years. BKFRAB records the number of times a pair of subjects were seen in conversation by an "unobtrusive" observer (who walked through the public areas of the building every fifteen minutes, 21 hours a day, for five days). BKFRAC contains rankings made by the subjects of how frequently they interacted with other subjects in the observation week. These data can be found on this <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm#bkfrat">link</a>.
+                </h5>
+            </div>
+            <div class="text">
+                <h2>
+                    Tasks
+                </h2>
+                <h5>
+                    - Identify clusters/communities: By apllying commuity recognition algorithms and visualizing the social network, it is possible to identify patterns and dynamics of the interactions between students. This could be useful for identifying cliques or subgroups within the fraternity or understanding how information flows through the network.
+                </h5>
+                <h5>
+                    - Identify the most socially connected students: using data visualization techniques such as network diagrams, it is possible to map out the social connections among the fraternity students. By analyzing the number of interactions between students and their frequency of conversation, the most socially connected students can be identified. This information can be useful in various ways, such as selecting leaders for group projects or identifying potential mentors.
+                </h5>
+                <h5>
+                    - Analyse degree distribution: It would contribute to understanding the topology or structure of the social network among the fraternity students. Specifically, it would provide information about the distribution of the number of connections or interactions each student has with other students.
+                </h5>
+                <h5>
+                    - Compare self-reported interactions to observed interactions: Comparing the rankings made by the subjects of how frequently they interacted with other subjects in the observation week to the actual number of times they were seen conversing can provide insights into how accurate people are in self-reporting their social interactions.
+                </h5>
+            </div>
+            <div class="text">
+                <h2>
+                    Visualizations
+                </h2>
+                <h5>
+                    <a href="comm.html">Community visualization</a>: The purpose of this visualization is to understand the dynamics of the behavorial social network: clusters, density, influential individuals and frequency variations.
+                </h5>
+                <h5>
+                    <a href="deg.html">Degree Dsitribution</a>: The purpose of plotting a degree distribution is to understand the topology of the social network among the fraternity students. Specifically, it provides information about the distribution of the number of connections or interactions each student has with other students.
+                </h5>
+                <h5>
+                    <a href="comp.html">Comparison between observed and self-reported data</a>: This scatter plot visualization aims to compare observed interactions with self-reported interactions. Since the values in the two matrices are expressed in different units (one measures the frequency of interactions while the other uses a ranking system from 0 to 5), it was necessary to normalize the data between 0 and 1. This facilitates a more straightforward visual comparison between the two sets of data.
+                </h5>
+                <h5>
+                    <a href="heat.html">Interactive heatmap visualization</a>: The interactive heatmap displayed below represents the frequency of interactions between individuals, as represented by the weight of the edges. To prevent the heatmap from being dominated by extreme values, the frequency values were converted into logarithmic values.
+
+                    This visualization allows the user to box select a group of nodes and hover over the data to view additional information on the frequency values. Additionally, the data can be filtered according to five frequency value ranges.
+                </h5>
+            </div>
+        </main>
+    </body>
+
+</html>
