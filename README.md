@@ -1,1 +1,2 @@
-# DataViz_Project
+# Data Visualization Project
+PROJECT FILES IN THE MASTER BRANCH
