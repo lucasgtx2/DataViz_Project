@@ -1,0 +1,51 @@
+body {
+    width: 98%;
+    height: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 0.15rem solid black;
+    background-color: #1972a4;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.home {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    order: 1;
+}
+
+.title { 
+    order: 2;
+    margin: 0 auto;
+    padding-right: 4rem;
+}
+
+main {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    font-weight: 200;
+    align-items: center;
+}
+
+.img {
+    padding-top: 3rem;
+}
+
+.text {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    align-items: center;
+    text-align: justify;
+}
